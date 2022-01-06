@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"webpack"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,10 @@
   "homepage": "https://github.com/Totny123/T-UI#readme",
   "devDependencies": {
     "awesome-typescript-loader": "5.2.1",
+    "html-webpack-plugin": "3.2.0",
     "webpack": "4.29.6",
-    "webpack-cli": "3.2.3"
+    "webpack-cli": "3.2.3",
+    "webpack-dev-server": "3.2.1"
   },
   "dependencies": {
     "typescript": "3.3.3333"

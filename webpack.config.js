@@ -1,4 +1,5 @@
 const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 //exports是由s的。
 module.exports = {
   mode: 'production',
@@ -19,4 +20,10 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'T-UI',
+      template: 'index.html'
+    })
+  ]
 }
