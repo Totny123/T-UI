@@ -6,6 +6,9 @@ module.exports = {
   entry: {
     index: './lib/index.tsx'
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
+  },
   output: {
     //__dirname不需要引号
     path: path.resolve(__dirname, 'dist/lib'),

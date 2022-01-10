@@ -1,4 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
-console.log(React);
-console.log(ReactDOM);
+function Button() {
+  return <button>按钮</button>;
+}
+
+export { Button };
